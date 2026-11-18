@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TikTok posting — Barticus Studio</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="brand" href="index.html">
+        <img src="icon.png" width="64" height="64" alt="Barticus Studio app icon">
+        Barticus Studio
+      </a>
+      <nav>
+        <a href="index.html">Product</a>
+        <a href="posting.html">TikTok posting</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>How a clip reaches TikTok</h1>
+    <p class="lead">Posting happens inside the Windows app. This page is the public description of that flow. There is nothing to sign in to on this website.</p>
+
+    <section>
+      <h2>1. Connect the creator’s account</h2>
+      <p>In Settings, the creator presses Connect next to TikTok. The browser opens TikTok’s login and permission screen. Barticus Studio never asks for the TikTok password.</p>
+      <p>The app requests four permissions:</p>
+      <ul>
+        <li><strong>user.info.basic</strong> — read the display name and show which account is connected.</li>
+        <li><strong>video.list</strong> — list that account’s recent video titles in Settings.</li>
+        <li><strong>video.upload</strong> — upload the clip file the creator selected.</li>
+        <li><strong>video.publish</strong> — publish that clip with the settings the creator chose on the post screen.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Review the clip</h2>
+      <p>The app shows the finished clip. The creator can change the caption or discard the clip. Nothing is sent to TikTok at this step.</p>
+    </section>
+
+    <section>
+      <h2>3. Choose the post settings</h2>
+      <p>Before the upload, the post screen shows:</p>
+      <ul>
+        <li>the connected TikTok display name</li>
+        <li>who can watch: everyone, friends, followers, or only the creator</li>
+        <li>switches for comments, Duet, and Stitch, including any option TikTok has disabled for that account</li>
+        <li>a checkbox for TikTok’s music confirmation</li>
+      </ul>
+      <p>Post stays off until the creator picks who can watch and ticks the music confirmation.</p>
+    </section>
+
+    <section>
+      <h2>4. Upload</h2>
+      <p>Post sends that one video, the caption, and the chosen settings to TikTok through TikTok’s Content Posting API. The app then shows whether the post went out.</p>
+    </section>
+
+    <section>
+      <h2>Disconnect</h2>
+      <p>Disconnect in the app deletes the saved TikTok connection on that PC. The creator can also remove Barticus Studio in TikTok under Settings, Security, and Apps and websites.</p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <a href="index.html">Barticus Studio</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,33 +1,72 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Barticus Studio</title>
-  <style>
-    body { margin: 0; background: #0d1219; color: #e9eff7; font: 16px/1.5 "Segoe UI", sans-serif; }
-    main { max-width: 40rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
-    h1 { font-size: 1.8rem; margin: 0 0 0.25rem; }
-    h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; color: #ffe7a8; }
-    a { color: #ff4a16; }
-    .mark { color: #ff4a16; letter-spacing: 0.04em; font-size: 0.85rem; }
-  </style>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
+  <header>
+    <div class="bar">
+      <a class="brand" href="index.html">
+        <img src="icon.png" width="64" height="64" alt="Barticus Studio app icon">
+        Barticus Studio
+      </a>
+      <nav>
+        <a href="index.html">Product</a>
+        <a href="posting.html">TikTok posting</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </nav>
+    </div>
+  </header>
   <main>
-    <p class="mark">BARTICUS STUDIO</p>
     <h1>Barticus Studio</h1>
-    <p>Barticus Studio is a Windows desktop app for World of Warcraft. It records short gameplay clips and can publish them to the creator’s own TikTok account when the creator chooses to post.</p>
-    <p>Barticus Studio ist ein Windows-Programm für World of Warcraft. Es zeichnet kurze Spielclips auf. Der Nutzer schaut sie an und lädt sie auf sein eigenes TikTok-Konto, wenn er das will.</p>
+    <p class="lead">Barticus Studio is a Windows desktop app. It cuts short World of Warcraft clips on the creator’s PC and can post a finished clip to that creator’s own TikTok account.</p>
+    <p>This website explains the product. It has no login, no account, and no download gate. The app itself runs on Windows.</p>
 
-    <h2>Was die App macht</h2>
-    <p>Die App erkennt Bosskämpfe, Wipes und eigene Tode in Dungeons, Raids und bei seltenen Gegnern. Daraus schneidet sie ein kurzes Video. Der Nutzer kann den Text ändern, den Clip verwerfen oder posten. Nichts geht ohne seine Anmeldung bei TikTok online.</p>
+    <section>
+      <h2>What the app does</h2>
+      <ul>
+        <li>Watches a World of Warcraft session for boss fights, wipes, deaths, and rare enemies.</li>
+        <li>Cuts a short clip from the local recording and shows it in the app.</li>
+        <li>Lets the creator edit the caption, throw the clip away, or post it.</li>
+        <li>Posts only after the creator connects their own TikTok account and confirms the post.</li>
+      </ul>
+    </section>
 
-    <h2 id="privacy">Datenschutz</h2>
-    <p>Die App läuft auf dem Rechner des Nutzers. Clips und Anmeldedaten bleiben dort, bis der Nutzer einen Clip selbst postet. Beim Posten erhält TikTok das Video, den Text und die Rechte, die der Nutzer im TikTok-Fenster bestätigt. Die App verkauft keine Daten und gibt sie nicht an andere weiter. Wer die Verbindung trennen will, entfernt Barticus Studio in den TikTok-Einstellungen unter Sicherheit und Berechtigungen.</p>
+    <section>
+      <h2>Who it is for</h2>
+      <p>One creator uses Barticus Studio on their own computer for their own channel. The app does not post to other people’s accounts, and it does not browse TikTok for them.</p>
+    </section>
 
-    <h2 id="terms">Nutzung</h2>
-    <p>Die App ist für den eigenen Kanal des Nutzers. Er postet nur eigene Aufnahmen und hält sich an die TikTok-Regeln. Es gibt kein Abo und keine Bezahlung in der App.</p>
+    <section>
+      <h2>TikTok connection</h2>
+      <p>The creator presses Connect in the app. TikTok’s own login page asks them to allow Barticus Studio. After that, the app shows the TikTok display name and the creator’s recent videos.</p>
+      <p>On the post screen the creator chooses who can watch, and whether comments, Duet, and Stitch are on. They confirm TikTok’s music terms, then press Post. The app uploads that one file.</p>
+      <p>The full flow is on the <a href="posting.html">TikTok posting</a> page.</p>
+    </section>
+
+    <section>
+      <h2>What stays on the PC</h2>
+      <p>Clips, captions, and the TikTok connection stay on the creator’s computer until they post. A post sends TikTok the video, the caption, and the settings the creator just confirmed. Barticus Studio does not sell that data.</p>
+      <p>Details are in the <a href="privacy.html">Privacy Policy</a>. Rules for using the app are in the <a href="terms.html">Terms of Service</a>.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about the app, the Privacy Policy, or the Terms of Service: <a href="mailto:markovic.nikola@gmx.at">markovic.nikola@gmx.at</a></p>
+    </section>
   </main>
+  <footer>
+    <div class="wrap">
+      <img src="icon.png" width="32" height="32" alt="">
+      Barticus Studio · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> · <a href="posting.html">TikTok posting</a>
+    </div>
+  </footer>
 </body>
 </html>
